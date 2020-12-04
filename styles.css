@@ -1,0 +1,175 @@
+html {
+  background: rgb(255 221 87 / 26%);
+}
+html.dangerLevelMax {
+  background: black;
+  background-image: url("bgImage/Sirens.gif");
+  background-position: center;
+  background-size: cover;
+}
+body {
+  color: rgb(10 10 10);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.navbar.is-info {
+  background-color: rgb(241 70 70);
+  color: rgb(255 255 255);
+}
+.navbar-brand,
+.navbar-tabs {
+  align-items: center;
+  display: flex;
+  min-height: 3.25rem;
+  margin-left: center;
+  font-size: 1.5rem;
+  margin: left;
+  margin-left: 43%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: large;
+  text-align: center;
+}
+.button.is-danger.is-active {
+  background-color: rgb(239 46 85);
+  border-color: rgb(0 0 0 / 0%);
+  color: rgb(255 255 255);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.button.is-danger:hover {
+  background: rgb(200 46 85);
+}
+.button.is-danger {
+  margin-left: 5%;
+}
+img {
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1px;
+  background-color: rgb(39, 39, 29);
+}
+#dangerLevel {
+  text-align: center;
+  margin: 2%;
+  font-size: large;
+}
+.is-size-4 {
+  font-size: 1.3rem !important;
+  font-weight: 700;
+  margin-top: 4%;
+}
+span {
+  font-style: inherit;
+  font-weight: inherit;
+  color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 400;
+  color: black;
+}
+
+p {
+  color: red;
+}
+
+html {
+  background: rgb(255 221 87 / 26%);
+}
+body {
+  color: rgb(10 10 10);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.navbar.is-info {
+  background-color: rgb(241 70 70);
+  color: rgb(255 255 255);
+}
+.navbar-brand,
+.navbar-tabs {
+  align-items: center;
+  display: flex;
+  min-height: 3.25rem;
+  margin-left: center;
+  font-size: 1.5rem;
+  margin: left;
+  margin-left: 43%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+}
+.button.is-danger.is-active {
+  background-color: rgb(239 46 85);
+  border-color: rgb(0 0 0 / 0%);
+  color: rgb(255 255 255);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.button.is-danger:hover {
+  background: rgb(200 46 85);
+}
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1px;
+  background-color: rgb(39, 39, 29);
+}
+#dangerLevel {
+  text-align: center;
+  margin: 2%;
+  font-size: large;
+}
+.is-size-4 {
+  font-size: 1.3rem !important;
+  font-weight: 700;
+  margin-top: 4%;
+}
+.column.is-6-tablet {
+  flex: none;
+  background: #f5f5f6;
+  width: 50%;
+}
+.column.is-6,
+.column.is-6-tablet {
+  flex: none;
+  background: #f5f5f6;
+  width: 50%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.has-text-centered {
+  text-align: center;
+  font-size: 3em;
+  padding: 1%;
+  margin: 0%;
+  margin-left: 40%;
+}
+.has-background-grey {
+  background-color: rgb(169, 234, 146) !important;
+}
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 124%;
+  margin-top: 0%;
+  padding: 3%;
+}
+label {
+  padding: 5%;
+  font-size: 114%;
+  margin-left: 5%;
+  color: black;
+  text-align: center;
+}

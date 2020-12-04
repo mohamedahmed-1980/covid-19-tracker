@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Covid Tracker</title>
+
+    <!--Style sheets-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!--Nav bar displaying website title-->
+    <nav class="navbar is-info" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">Covid Tracker</div>
+    </nav>
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="columns">
+
+                <!--Search Element-->
+                <!--Will allow the user to search a country and clear search history in local storage-->
+                <div class="column is-3">
+
+
+                    <div class="searchBox box box-color has-background-grey has-text-white">
+
+                        <aside class="searchBox">
+
+                            <h1 id="date" class="is-size-4"></h1>
+                            <br>
+
+                            <label for="searchInput"><strong>Search for a country:</strong></label>
+                            <div class="field">
+                                <input class="input mt-2" id="countryInput" type="text" placeholder="Country">
+                                <button class="button is-danger my-3" id="searchBtn">Search</button>
+                                <button class="button is-danger my-3" id="clearBtn">Clear</button>
+                            </div>
+
+                        </aside>
+
+                        <hr>
+
+                        <!--Dynamically generated buttons showing user search history-->
+                        <label for="buttonList">Search History:</label>
+                        <div class="seachBtnList buttons is-centered" id="buttonList">
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--Covid Info Element-->
+                <!--Dynamically generated statistics-->
+                <div class="column is-5">
+                    <div class="covidStats box box-color has-background-grey has-text-primary-light">
+
+                        <h1 id="countryEl"><strong>Country:</strong><span id="countryText"></span></h1>
+                        <img src="./flagImages/us.jpg" alt="flag" id="flag">
+                        <h2><strong>Covid Statistics:</strong></h2>
+                        <h3 id="deaths">Number of Covid-19 deaths:</h3>
+                        <h3 id="deathRate">Covid-19 death rate:</h3>
+                        <h3 id="recovRate">Recovery rate:</h3>
+                        <h3 id="sIndex">Stringency Index*:</h3>
+                        <br>
+                        <p>* A (0-100 scale) showing how strict a country is on containing on the spread of Covid-19.
+                            100 being the most strict.</p>
+
+                    </div>
+                </div>
+
+                <!--Danger Level Element-->
+                <!--Dynamically generated image, will show a country's travel danger level with a gif-->
+                <div class="column is-4">
+
+                    <div class="column box box-color has-background-grey is-12">
+                        <h1 id="dangerLevel"><strong>Danger Level</strong></h1>
+                        <img src="https://media.giphy.com/media/55itGuoAJiZEEen9gg/giphy.gif" height="400" width="400"
+                            id="dangerGif">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Nav bar displaying website title-->
+    <footer>
+        <nav class="navbar is-info is-fixed-bottom" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">Covid Tracker</div>
+        </nav>
+    </footer>
+
+    <!--Script links-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+    <script src="scriptMoment.js"></script>
+
+</body>
+
+</html>
