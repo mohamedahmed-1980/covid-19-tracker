@@ -47,7 +47,8 @@ A Covid-19 information dashboard that allows the user to lookup a specific count
 
 ![Demo Image](./bgImage/Demo.JPG)
 
-[Gitpages Link](https://github.com/mohamedahmed-1980/covid-19-tracker.git)
+[Github pages Link](https://github.com/mohamedahmed-1980/covid-19-tracker.git)
+[app link](https://mohamedahmed-1980.github.io/covid-19-tracker/)
 
 ## Authors:
 
